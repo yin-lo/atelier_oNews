@@ -1,0 +1,82 @@
+.right__completArticle {
+	background-color: white;
+	width: 90%;
+	border: 1px solid var(--color-border);
+	padding: 2rem;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right__completArticle-category {
+	color: white;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0.5rem;
+	border-radius: 5px;
+	align-self: center;
+}
+
+.right__completArticle-title {
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin-bottom: 0.5rem;
+}
+
+.right__completArticle-info {
+	display: flex;
+	font-size: 0.7rem;
+	gap: 0.5rem;
+	background-image: url(../images/icon-john.png);
+	background-repeat: no-repeat;
+	background-size: 1.5rem;
+	padding: 1rem;
+	background-position: left;
+}
+
+.right__completArticle-info p {
+	margin: 0 0 0 1rem;
+}
+
+.right__completArticle-info time {
+	color: grey;
+}
+
+.right__completArticle-figure {
+	width: 50%;
+	border: solid 2px grey;
+	margin: 2rem auto;
+}
+
+.right__completArticle-legend {
+	color: grey;
+	font-size: 0.7rem;
+}
+
+.right__completArticle-subtitle {
+	font-size: 1.5rem;
+}
+.right__completArticle-text {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.right__completArticle-aBox {
+	display: flex;
+	justify-content: space-around;
+}
+
+.right__completArticle-a {
+	margin-top: 2rem;
+	color: var(--color-a);
+	transition: all 0.3s ease-in-out;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.right__completArticle-a:hover {
+	color: var(--color-a-hover);
+}
+

@@ -1,0 +1,11 @@
+:root {
+	--color-a: #007bff;
+	--color-a-hover: #0056b3;
+	--bg-color-light: rgb(249, 249, 249);
+	--color-border:#eaeaea;
+	--bg-color-work: #0766F0;
+	--bg-color-team : #dc5e53;
+	--bg-color-news: #98dc62;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
