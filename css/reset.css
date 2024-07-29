@@ -1,50 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --article-link:#007bff;
+    --article-hover-link:#0056b3;
+    --font-header:#f9f9f9;
+    --article-border:#eaeaea;
+    --work-color:#0766F0;
+    --team-color:#DC5E53;
+    --news-color:#98DC62;
+    --font-site:'Roboto', sans-serif;
+}
+
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-	font-family: 'Raleway', sans-serif;
+    font-family: var(--font-site);
 }
 
-body {
-	margin: 0;
-}
-
-img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
-
-figure {
-	margin: 0;
-}
-
-button {
-	border: none;
-	padding: 8px 20px;
-	opacity: 0.7;
-}
-
-button:hover {
-	cursor: pointer;
-	opacity: 1;
-}
-
-ul,
-ol {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-}
-
-li {
-	padding: 0;
-	margin: 10px;
+body, li, ul, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
+    color: black;
 }
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
